@@ -43,36 +43,47 @@
       </select>
 </form>
 
-<div>
-    <input type="radio" name="ticket_type" id="child" value="child">
-    <label for="child"child>child</label>
-</div>
+<form>
+    <div>
+        <input type="radio" name="ticket_type" id="child" value="child">
+        <label for="child"child>child</label>
+    </div>
 
-<div>
-    <input type="radio" id="adult" name="ticket_type" value="adult" checked>
-    <label for="adult">Adult</label>
-  </div>
+    <div>
+        <input type="radio" id="adult" name="ticket_type" value="adult" checked>
+        <label for="adult">Adult</label>
+    </div>
 
-  <h1>pizza toopping</h1>
+    <h1>pizza toopping</h1>
 
-<div>
-    <input type="checkbox" name="topping" id="sausage" value="sausage">
-    <label for="sausage">sausage</label>
-</div>
+    <div>
+        <input type="checkbox" name="topping" id="sausage" value="sausage">
+        <label for="sausage">sausage</label>
+    </div>
 
-<div>
-    <input type="checkbox" name="topping" id="cheese" value="cheese">
-    <label for="cheese">cheese</label>
-</div>
+    <div>
+        <input type="checkbox" name="topping" id="cheese" value="cheese">
+        <label for="cheese">cheese</label>
+    </div>
 
-<button type="submit">submut</button>
-<button type="reset">reset</button>
+    <button type="submit">submut</button>
+    <button type="reset">reset</button>
 
-<fieldset>
-    <legend>Contact Details</legend>
-    
-    <label for="first_name">first</label>
-    <input type="text" name="first_name" id="first_name">
-    <label for="last_name">Last Name</label>
-    <input type="text" id="last_name" name="last_name">
-</fieldset>
+    <fieldset>
+        <legend>Contact Details</legend>
+        
+        <label for="first_name">first</label>
+        <input type="text" name="first_name" id="first_name">
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last_name">
+    </fieldset>
+
+    <p>Required fields are followed by <span aria-label="required">*</span>.</p>
+    <div>
+        <label for="username">Name: <span aria-label="required">*</span></label>
+        <input id="username" type="text" name="username" required />
+    </div>
+
+    <button type="submit">click me </button>
+
+</form>
